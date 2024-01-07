@@ -1,0 +1,221 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+ padding-top: 120px;
+ background-image: url(../images/banner/banner1.png);
+ background-size: cover;    
+ /* width: auto; */
+ height: 808px;
+ flex-shrink: 0;
+ background-repeat: no-repeat;
+ background-position: center left;
+}
+.nav-btn{
+    padding: 18px 35px;
+    color:#FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+}
+.header-content{
+    width: 25%;
+    text-align: right;
+    margin-left: 945px;
+    margin-right: 230px;
+}
+.header-title{
+    color: var(--Dark-01, #151414);
+    font-family: Work Sans;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 107px;
+    margin-bottom: 0;
+}
+.header-pera{
+    color: var(--Dark-02, #444343);
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-left: 15px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+    /* padding-bottom: 166px; */
+}
+main{
+    width: 1140px;
+    margin: 0 auto;
+}
+.portfolio-area{
+    display: flex;
+    margin-top: 140px;
+    align-items: center;
+    gap: 105px;
+}
+.portfolio-head{
+    color: var(--Dark-01, #151414);
+font-family: Work Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 70%;
+}
+.portfolio-para{
+    color: var(--Dark-02, #444343);
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+width: 90%;
+}
+.port-list-item{
+    color: var(--Dark-02, #444343);
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.skill-content{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.skill-area>h2{
+    text-align: center;
+    color: var(--Dark-01, #151414);
+font-family: Work Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 56px;
+}
+.skill-area{
+    margin-top:140px;
+}
+.img-title{
+    color: var(--Dark-01, #151414);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.img-info{
+    color: var(--Dark-03, #737272);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+}
+.positive{
+    background-image: url("../images/watch.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    position: relative;
+    border-radius: 8px;
+    border: none;
+}
+.positive::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url('../images/gradient2.png') center/cover no-repeat;
+    z-index: 0;
+  }
+.neg-item{
+position: relative;
+z-index: 1;
+width: 30%;
+padding: 20px 0 0px 60px;
+}
+.nega-head{
+    color: #FFF;
+
+font-family: Work Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+#last{
+    background-color: #FFF;
+    color: #F15B22;
+}
+.footer{
+    background-color: #151414;
+    color: white;
+    margin-top: 130px;
+}
+.footer-area{
+    display: flex;
+    padding:130px 230px 130px 230px;
+    gap: 330px;
+}
+.footer-social{
+    display: flex;
+}
+.footer-social li{
+    list-style: none;
+    margin-top: 0px;
+
+}
+.footer-head{
+    color: #F8F8F8;
+
+font-family: Work Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.footer-content{
+}
+.subscribe{
+    color: #FFF;
+
+font-family: Work Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.footer-email{
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    background-color: #151414;
+    padding: 22px 158px 22px 22px;
+    color: var(--Dark-07, #F3F3F3);
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 16px;
+}
+.footer-phone{
+    padding-bottom: 0;
+}
